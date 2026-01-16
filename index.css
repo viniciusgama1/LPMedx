@@ -1,0 +1,98 @@
+body {
+    background-color: #FEFAFE;
+
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    /* um em cada canto */
+    align-items: center;
+    /* alinha no meio vertical */
+    padding: 20px 40px;
+
+    border-bottom: 1px solid #333;
+    /* cor da linha */
+}
+
+button {
+    padding: 10px 10px;
+    border-radius: 10px;
+    background-color: #9B13AE;
+    color: white;
+    font-weight: bold;
+    border-color: #9B13AE;
+
+}
+
+.main {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.main h1 {
+
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 600;
+    width: 594px;
+    height: 144px;
+    font-size: 60px;
+    line-height: 120%;
+    letter-spacing: -2%;
+
+
+}
+
+.main h2 {
+
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 400;
+    width: 594px;
+    height: 54px;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0%;
+}
+
+
+.email-box {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 520px;
+    padding: 6px;
+    border: 1px solid #e5e5e5;
+    border-radius: 14px;
+    background: #FEFAFE;
+}
+
+.email-box input {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 14px 16px;
+    font-size: 16px;
+    border-radius: 14px;
+}
+
+.email-box input::placeholder {
+    color: #9ca3af;
+}
+
+.email-box button {
+    border: none;
+    padding: 12px 22px;
+    background: #9B13AE;
+    /* roxo */
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 10px;
+    white-space: nowrap;
+}
+
+.foto1 img {
+    padding: 50px 0 0 400px;
+}
