@@ -30,6 +30,7 @@ button {
     font-weight: 500;
     border-radius: 10px;
     white-space: nowrap;
+    cursor: pointer;
 
 }
 
@@ -264,6 +265,7 @@ button {
     justify-content: center;
     flex-direction: column;
     padding-top: 120px;
+    letter-spacing: 5px;
 
 
 
@@ -278,6 +280,7 @@ button {
     color: #F5F7FA;
     text-align: center;
     font-size: 40px;
+    letter-spacing: 0px;
 
 
 
@@ -675,6 +678,7 @@ button {
 
 .s6texto p {
     color: #D0A5D7;
+    letter-spacing: 5px;
 }
 
 .s6email {
@@ -725,4 +729,5 @@ footer {
     color: #FFFFFFB2;
     align-items: center;
     justify-content: space-between;
+    font-family: 'Plus Jakarta Sans', sans-serif;
 }
